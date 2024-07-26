@@ -69,6 +69,7 @@ let indice = +prompt("Qual cadastro deseja remover? (apenas números) ")
 indice = indice - 1
 estoque.splice(indice, 1)
 console.log("\nEntrada removida com sucesso.\n")
+//IMPLEMENTAR UMA LÓGICA DE CONFIRMAR A AÇÃO DE DELETAR
 }
 
 module.exports = {
