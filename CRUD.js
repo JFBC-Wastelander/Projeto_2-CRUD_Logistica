@@ -30,6 +30,8 @@ function criar () {
     pacote.descricao = prompt("Forneça uma descrição do seu produto: ")
     estoque.push(pacote)
     console.log("\nProduto cadastrado com sucesso.\n")
+//TODO: Lógica de segurança (se o cliente digitar informações erradas, o cadastro não será efetuado)
+//TODO: Criar um armazenamento de segurança
 }
 
 const listar = () => {
@@ -69,7 +71,7 @@ let indice = +prompt("Qual cadastro deseja remover? (apenas números) ")
 indice = indice - 1
 estoque.splice(indice, 1)
 console.log("\nEntrada removida com sucesso.\n")
-//IMPLEMENTAR UMA LÓGICA DE CONFIRMAR A AÇÃO DE DELETAR
+//TODO: IMPLEMENTAR UMA LÓGICA DE CONFIRMAR A AÇÃO DE DELETAR
 }
 
 module.exports = {
